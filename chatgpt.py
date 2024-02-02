@@ -6,7 +6,7 @@ import time
 #这段代码使用OpenAI GPT-3.5-turbo模型生成对输入prompt的聊天响应
 # output.json读取并将生成的内容写入jsonl文件。将出错的键值对记录到错误日志文件中
 # 并在最后将错误的键值对保存回原始的output.json文件。
-API_URL = "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"
+API_URL = ""
 
 openai.api_key = API_URL
 
